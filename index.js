@@ -19,7 +19,7 @@ function add2(n) {
 }
 
 var funkyFunction = function outside() {
-  function inside() {
+  return function inside() {
     return "FUNKY!"
   }
 }
